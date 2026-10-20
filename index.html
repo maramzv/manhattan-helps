@@ -162,11 +162,11 @@ map.on('click',e=>{searchId++;setLocation(e.latlng.lat,e.latlng.lng,'Location se
 // church dinner so people can see how a community post looks.
 document.getElementById('demoFill').addEventListener('click',()=>{
   const f=document.getElementById('offerForm');
-  f.organization.value='Example Community Church (demo)';
+  f.organization.value='Harlem Neighbors Church (demo)';
   f.category.value='Food';
   f.neighborhood.value='Harlem';
-  f.details.value='Free hot dinner every Thursday, 5:30-7:00 PM, in the church hall at 123 Example St. Everyone welcome, no ID or sign-up needed. Contact us with any questions.';
-  f.email.value='hello@example.org';
+  f.details.value='Free hot Thursday dinner, 5:30-7:00 PM, in the basement hall near W 135th St and Malcolm X Blvd (2/3 train to 135th St). Chicken, rice, vegetables and coffee, plus coats and hats while supplies last. Walk-ins welcome, no ID or sign-up needed. Wheelchair accessible. Questions: call or email the church office.';
+  f.email.value='office@harlemneighbors.example.org';
   document.getElementById('offerStatus').textContent='Demo example filled in. Replace it with your real details before sending.';
 });
 
